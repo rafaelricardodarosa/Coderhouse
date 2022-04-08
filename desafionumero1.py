@@ -5,8 +5,8 @@
 
 nota1 = int(input("Digite la nota del examen?"))
 nota2 = int(input("Digite la nota del examen?"))
-primeranota = nota1*0.4
-segundanota = nota2*0.6
-notafinal = primeranota+segundanota
+primera_nota = nota1*0.4
+segunda_nota = nota2*0.6
+nota_final = primera_nota+segunda_nota
 
-print("La primera nota parcial es: {:.1f}, la segunda nota parcial es: {:.1f} y el promedio es:{:.1f}".format(primeranota, segundanota, notafinal))
+print("La primera nota parcial es: {:.1f}, la segunda nota parcial es: {:.1f} y el promedio es:{:.1f}".format(primera_nota, segunda_nota, nota_final))
