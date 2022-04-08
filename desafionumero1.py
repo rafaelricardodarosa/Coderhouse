@@ -9,6 +9,4 @@ primeranota = nota1*0.4
 segundanota = nota2*0.6
 notafinal = primeranota+segundanota
 
-print("La primera nota parcial es: {}".format(primeranota))
-print("La Segunda nota parcial es:{}".format(segundanota))
-print("La nota final del año es:{}".format(notafinal))
+print("La primera nota parcial es: {:.1f}, la segunda nota parcial es: {:.1f} y el promedio es:{:.1f}".format(primeranota, segundanota, notafinal))
