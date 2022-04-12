@@ -1,6 +1,3 @@
-from tkinter import N
-
-
 nombre_alumno = input("Digite el nombre:")
 nota = input("Digite la nota:")
 materia = input("Digite la materia:")
