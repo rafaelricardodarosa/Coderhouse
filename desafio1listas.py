@@ -19,6 +19,3 @@ print(Lista4)
 
 Lista5 = Lista3 + Lista4
 print(Lista5)
-
-
-
