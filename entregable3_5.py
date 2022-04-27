@@ -13,8 +13,3 @@ lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 valor = int(input("Digite un valor entre 0 y 9: "))
 
-while valor in lista:
-    
-else:
-    print("numero no aceptado,digite otra vez:")
-    numero = int(input("Digite un valor entre 0 y 9: ")) 
