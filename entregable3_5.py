@@ -6,10 +6,12 @@ en la lista de números y notificarlo:
 en una lista (devuelve True o False)
 """
 
-from ast import While
-
-
 lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-valor = int(input("Digite un valor entre 0 y 9: "))
-
+while True:
+    num = int( input( "Introduce un número (0-9): "))
+    if not num in range(10):
+        print( "el número debe estar en el rango 0-9.")
+    else:
+        print( "El número {} está en la lista".format(num))
+        break
