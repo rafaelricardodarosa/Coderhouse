@@ -9,11 +9,11 @@ aunque  los multiplos de 400 si, 2012 bisiesto 2010 no es 2000 es bisiesto"""
 año = int(input("Ingrese el año: "))
 
 def es_bisiesto(año):
-    if año % 4 == 0 and año%100 != 0:
-        return True
+    if año%4 == 0 and año%100 != 0:
+        return print("El año {} es bisiesto".format(año))
     elif año%100 == 0 and año%400 == 0:
         return print("El año {} es bisiesto".format(año))
     else:
         return print("El año {} no es bisiesto".format(año))
 
-print(es_bisiesto(año))
+es_bisiesto(año)
