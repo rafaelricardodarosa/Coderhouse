@@ -16,4 +16,4 @@ def es_bisiesto(año):
     else:
         return print("El año {} no es bisiesto".format(año))
 
-print(es_bisiesto(año))
+es_bisiesto(año)
