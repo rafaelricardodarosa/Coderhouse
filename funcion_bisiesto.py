@@ -6,14 +6,16 @@
 """ los años bisiesto son multiplos de 4, pero los multiplos de 100 no lo son
 aunque  los multiplos de 400 si, 2012 bisiesto 2010 no es 2000 es bisiesto"""
 
-año = int(input("Ingrese el año: "))
-
-def es_bisiesto(año):
-    if año % 4 == 0 and año%100 != 0:
-        return True
-    elif año%100 == 0 and año%400 == 0:
-        return print("El año {} es bisiesto".format(año))
-    else:
-        return print("El año {} no es bisiesto".format(año))
-
-es_bisiesto(año)
+ano = input("Ingrese el año: ")
+if not ano.isdigit():
+    print("No es un numero")
+else:
+    ano = int(ano)
+    def es_bisiesto(ano):
+        if ano % 4 == 0 and ano%100 != 0:
+            return True
+        elif ano%100 == 0 and ano%400 == 0:
+            return print("El año {} es bisiesto".format(ano))
+        else:
+            return print("El año {} no es bisiesto".format(ano))
+    es_bisiesto(ano)
