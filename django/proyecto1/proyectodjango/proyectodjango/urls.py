@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from proyectodjango.views import mi_primero_view
+from proyectodjango.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("saludo/",mi_primero_view),
+    path("saludo/", mi_primero_view),
+    path("saludo2/", segunda_vista),
+    path("tiempo/", tiempo),
+    path("nombre/<name>", nombre),
+    path("nacimiento/<int:edad>", calcular_edad),
 ]
