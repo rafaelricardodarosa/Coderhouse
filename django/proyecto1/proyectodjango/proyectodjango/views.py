@@ -8,7 +8,7 @@ def mi_primero_view(request):
     return HttpResponse("Hola mundo desde mi primero view, saludos de coder")
 
 
-def segunda_vista(request):
+def segunda_vista(request): #aqui chama index.html
 
     with open(r"/Users/rafaeldarosa/Documents/Github/Coderhouse/django/proyecto1/proyectodjango/proyectodjango/index.html") as f:
         plantilla = Template(f.read())
